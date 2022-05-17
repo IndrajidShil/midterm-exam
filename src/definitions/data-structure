@@ -1,0 +1,71 @@
+Please answer the below Data Structure Questions:
+
+Q. why do we need data structure?
+A. A data structure is a collection of data values and the relationships between them. Data structures
+allow programs to store and process data effectively. With the help of data structure, the data items can be
+traversed easily. (Eg. Array, List)
+
+------------------------------------------------------------------------------------------------------------------------
+What are the various operations that can be performed on different Data Structures?
+A.  The basic operations that are performed on data structures are as follows:
+1)Insertion: Insertion means addition of a new data element in a data structure.
+2)Deletion: Deletion means removal of a data element from a data structure if it is found.
+3)Searching: Searching involves searching for the specified data element in a data structure.
+4)Traversal: Traversal of a data structure means processing all the data elements present in it.
+
+
+------------------------------------------------------------------------------------------------------------------------
+Q. List out the areas in which data structures are applied extensively?
+A.Data structure is important in almost every aspect where data is involved. They are commonly used in
+Compiler Design, Operating System, Database Management System, Numerical Analysis, Graphics, Artificial
+Intelligence(AI).
+------------------------------------------------------------------------------------------------------------------------
+Q. What is an Array?
+A. An array is a container object that holds a fixed number of values of a single type. The length
+of an array is established when the array is created. After creation, its length is fixed.
+
+------------------------------------------------------------------------------------------------------------------------
+Q. What is the difference between the Array and ArrayList?
+A. Array is a fixed length data structure whereas ArrayList is a variable length Collection class.
+We cannot change length of array once created in Java but ArrayList can be changed. We cannot store
+primitives in ArrayList, it can only store objects.
+------------------------------------------------------------------------------------------------------------------------
+Q. What is LinkedList?
+A. Linked List is a part of the Collection framework present in java.util package. LinkedList acts as a
+dynamic array and we do not have to specify the size while creating it, the size of the list automatically
+increases when we dynamically add and remove items.
+
+------------------------------------------------------------------------------------------------------------------------
+Q. How is an ArrayList different from Linked List?
+A. ArrayList internally uses a dynamic array to store the elements whereas LinkedList internally uses a
+doubly linked list to store the elements. Manipulation with ArrayList is slow because it internally uses an
+array but manipulation with LinkedList is faster than ArrayList because it uses a doubly linked list, so no
+bit shifting is required in memory. ArrayList is better for storing and accessing data whereas LinkedList is
+better for manipulating data.
+
+------------------------------------------------------------------------------------------------------------------------
+Q. What is the difference between the HashTable and HashMap?
+A. HashMap allows one null key and multiple null values whereas Hashtable doesn't allow any null key or value.
+
+------------------------------------------------------------------------------------------------------------------------
+Q. What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model?
+A.
+
+------------------------------------------------------------------------------------------------------------------------
+Q. How HashMap works in java?
+A. HashMap uses multiple buckets and each bucket points to a Singly Linked List where the entries (nodes) are
+stored. Once the bucket is identified by the hash function using hashcode, then hashCode is used to check
+if there is already a key with the same hashCode or not in the bucket(singly linked list).
+
+------------------------------------------------------------------------------------------------------------------------
+Q. What is ArrayIndexOutOfBoundsException in java? When it occurs?
+A. ArrayIndexOutOfBoundsException occurs when we access an array, or a Collection, that is backed by an array
+with an invalid index. This means that the index is either less than zero or greater than or equal to the
+size of the array.
+
+------------------------------------------------------------------------------------------------------------------------
+Q. What are the different ways of copying an array into another array?
+A. Array in java can be copied to another array using as follows:
+1)Use the clone method of the array. Clone methods create a new array of the same size.
+2)Use System.arraycopy() method. arraycopy can be used to copy a subset of an array.
+3)Create a new array of the same length and copy each element.
